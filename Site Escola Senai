@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Escola SENAI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Menu -->
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#historia">História</a>
+        <a href="#cursos">Cursos</a>
+        <a href="#contato">Contato</a>
+        <a href="sobre.html">Sobre a Escola</a>
+    </nav>
+
+    <h1 id="inicio">Escola SENAI</h1>
+
+    <p><strong>O SENAI</strong> é uma instituição muito conhecida pela qualidade de ensino técnico.</p>
+    <p>Os alunos aprendem na prática e têm contato com o mercado de trabalho desde cedo.</p>
+    <p><em>A escola oferece diversas oportunidades</em> para quem quer crescer profissionalmente.</p>
+
+    <!-- História -->
+    <h2 id="historia">História da Escola</h2>
+    <p><strong>Fundado há muitos anos</strong>, o SENAI tem como objetivo formar profissionais qualificados.</p>
+    <p>Ao longo do tempo, a escola se tornou referência em ensino técnico.</p>
+
+    <!-- Missão -->
+    <h2>Missão</h2>
+    <p><em>Formar profissionais preparados</em> para o mercado de trabalho com qualidade.</p>
+
+    <!-- Imagens -->
+    <img src="https://via.placeholder.com/300" alt="Imagem da escola" title="Escola SENAI">
+    <img src="https://via.placeholder.com/300" alt="Sala de aula" title="Sala de aula SENAI">
+
+    <!-- Cursos -->
+    <h2 id="cursos">Cursos</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Curso</th>
+                <th>Duração</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Informática</td>
+                <td>1 ano</td>
+            </tr>
+            <tr>
+                <td>Mecânica</td>
+                <td>2 anos</td>
+            </tr>
+            <tr>
+                <td>Elétrica</td>
+                <td>1 ano</td>
+            </tr>
+            <tr>
+                <td>Administração</td>
+                <td>6 meses</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Cursos atualizados em 2026</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- Diferenciais -->
+    <h2>Diferenciais da Escola</h2>
+    <ul>
+        <li>Ensino prático</li>
+        <li>Professores qualificados</li>
+        <li>Boa estrutura</li>
+        <li>Parcerias com empresas</li>
+    </ul>
+
+    <!-- Matrícula -->
+    <h2>Passos para se matricular</h2>
+    <ol>
+        <li>Escolher o curso</li>
+        <li>Fazer inscrição</li>
+        <li>Enviar documentos</li>
+        <li>Confirmar matrícula</li>
+    </ol>
+
+    <!-- Nova seção -->
+    <h2>Por que estudar no SENAI?</h2>
+    <p><strong>Estudar no SENAI</strong> aumenta suas chances de conseguir um emprego.</p>
+    <ul>
+        <li>Alta empregabilidade</li>
+        <li>Aprendizado rápido</li>
+    </ul>
+
+    <!-- Links externos -->
+    <h2>Links úteis</h2>
+    <a href="https://www.sp.senai.br" target="_blank">Site oficial</a><br>
+    <a href="https://www.google.com" target="_blank">Google</a><br>
+    <a href="https://www.youtube.com" target="_blank">YouTube</a>
+
+    <!-- Tabela alunos -->
+    <h2>Notas dos Alunos</h2>
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th>Nota</th>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>8.5</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>9.0</td>
+        </tr>
+    </table>
+
+    <!-- Contato -->
+    <h2 id="contato">Contato</h2>
+    <p>Email: contato@senai.com</p>
+    <a href="mailto:contato@senai.com">Enviar e-mail</a>
+
+
+    <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Contato - SENAI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Menu -->
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+
+    <h1>Fale Conosco</h1>
+
+    <p><strong>Entre em contato com o SENAI</strong> para tirar dúvidas ou obter mais informações sobre os cursos.</p>
+
+    <!-- Informações -->
+    <h2>Informações de Contato</h2>
+    <p>Email: contato@senai.com</p>
+    <p>Telefone: (11) 4002-8922</p>
+
+    <a href="mailto:contato@senai.com">Enviar e-mail</a>
+
+    <!-- Formulário -->
+    <h2>Envie uma mensagem</h2>
+
+    <form>
+        <label>Nome:</label><br>
+        <input type="text" name="nome"><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email"><br><br>
+
+        <label>Mensagem:</label><br>
+        <textarea name="mensagem" rows="4"></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <!-- Imagem -->
+    <h2>Local da Escola</h2>
+    <img src="https://via.placeholder.com/300" alt="Local da escola" title="Endereço SENAI">
+
+    <br><br>
+
+    <a href="index.html">Voltar para página inicial</a>
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Sobre a Escola</title>
+</head>
+<body>
+
+    <h1>Sobre o SENAI</h1>
+
+    <p>O SENAI é uma escola técnica que oferece cursos de qualidade para formação profissional.</p>
+
+    <img src="https://via.placeholder.com/300" alt="Imagem SENAI">
+
+    <br><br>
+
+    <a href="index.html">Voltar para a página inicial</a>
+
+</body>
+</html>
+
+
+
+body {
+    background-color: #e6ecf0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Menu */
+nav {
+    background-color: #1f3c88;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+/* Títulos */
+h1 {
+    color: #1f3c88;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #333;
+    margin-top: 30px;
+}
+
+/* Texto */
+p {
+    width: 70%;
+    margin: 10px auto;
+}
+
+/* Imagens */
+img {
+    width: 260px;
+    border-radius: 12px;
+    margin: 15px;
+}
+
+/* Tabela */
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 60%;
+    background-color: white;
+}
+
+th {
+    background-color: #1f3c88;
+    color: white;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Listas */
+ul, ol {
+    width: 50%;
+    margin: 10px auto;
+    text-align: left;
+}
+
+/* Links */
+a {
+    display: inline-block;
+    margin: 5px;
+}
+
+</body>
+</html>
